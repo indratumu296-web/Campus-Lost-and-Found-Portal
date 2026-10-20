@@ -1,0 +1,32 @@
+{
+  "name": "campus-lost-found-server",
+  "version": "1.0.0",
+  "description": "REST API for the Campus Lost and Found Portal.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --watch .env --ext js,mjs,cjs,json,env server.js"
+  },
+  "keywords": [
+    "campus",
+    "lost-and-found",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

@@ -1,0 +1,17 @@
+# Dependencies
+server/node_modules/
+
+# Environment variables and secrets
+.env
+server/.env
+
+# User-uploaded files (keep the directory itself)
+server/uploads/*
+!server/uploads/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
